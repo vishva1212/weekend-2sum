@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>sum-2</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="html-form">
+		<meta name="key-words" content="html-form,input,taxt-area,input-types,select,data-list">
+		<meta name="author" content="Berners-Lee">
+		<meta name="view-port" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="refresh" content="40">
+    </head>
+    <body>
+		<script>
+		//2 sum
+			const users1 = [
+						  {
+							first_name: 'Mike',
+							last_name: 'Sheridan',
+							age: 30
+						  },
+						  {
+							first_name: 'Tim',
+							last_name: 'Lee',
+							age: 45
+						  },
+						  {
+							first_name: 'John',
+							last_name: 'Carte',
+							age: 25
+						  }
+						];
+			let lastname=users1.map (function (users1){
+			return users1.last_name;
+			});
+			console.log(lastname);
+			document.write('<br>',JSON.stringify(lastname));
+		</script>
+	</body>
+</html>
